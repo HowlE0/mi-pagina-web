@@ -1,0 +1,177 @@
+/* Esto cambia el fondo de toda la página */
+body {
+    background-color: #96b4d1; /* Un gris muy clarito y limpio */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Esto cambia solo el título (h1) */
+h1 {
+    color: #0056b3; /* Un azul empresarial fuerte */
+    font-size: 50px;
+}
+
+/* Esto cambia el párrafo (p) */
+p {
+    color: #333;
+    font-size: 20px;
+}
+.boton-contacto {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #28a745; /* Verde tipo éxito/WhatsApp */
+    color: white;              /* Letras blancas */
+    text-decoration: none;     /* Quita la raya de abajo */
+    border-radius: 5px;        /* Bordes redondeados */
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s;          /* Para que el cambio sea suave */
+}
+
+.boton-contacto:hover {
+    background-color: #218838; /* Se pone más oscuro cuando pasas el mouse */
+    transform: scale(1.1);     /* Crece un poquito */
+}
+`css
+header {
+    background-color: white; /* Fondo blanco para que el logo resalte */
+    padding: 20px 0;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Una sombra sutil para que se vea moderno */
+}
+
+.logo {
+    max-height: 100px; /* Controla el tamaño para que no sea gigante */
+    display: block;
+    margin: 0 auto;  /* Centra el logo automáticamente */
+}
+.contenedor-productos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.tarjeta-producto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: #333; /* Texto oscuro para que se lea bien en el fondo blanco */
+}
+
+.img-producto {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.precio {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0056b3; /* El azul de tu marca */
+    margin: 10px 0;
+}
+
+.descripcion {
+    font-size: 14px;
+    color: #666;
+}
+
+.boton-comprar {
+    background-color: #ffc107; /* Amarillo para llamar la atención */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+.boton-comprar:hover {
+    background-color: #e0a800;
+}
+/* Estilo para el Menú */
+.menu {
+    list-style: none;    /* Quita los puntitos de la lista */
+    padding: 0;
+    display: flex;       /* Pone los elementos uno al lado del otro */
+    justify-content: center;
+    gap: 20px;           /* Espacio entre cada palabra del menú */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #0056b3;      /* Cambia a azul al pasar el mouse */
+}
+
+/* Ajuste para que los productos no queden pegados */
+.contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;     /* Si no caben, se pasan a la siguiente fila abajo */
+    justify-content: center;
+    gap: 30px;           /* Espacio entre tarjetas */
+    padding: 40px;
+}
+.contacto-seccion {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contacto-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.formulario {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.formulario input, .formulario textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.boton-enviar {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.boton-enviar:hover {
+    background-color: #003d80;
+}
+
+.mapa {
+    flex: 1;
+    min-width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
